@@ -1,0 +1,4352 @@
+[
+  {
+    "value": "none",
+    "title": "p00000000000",
+    "name": "None"
+  },
+  {
+    "value": "aluminum_agrinium",
+    "title": "p11101101110",
+    "name": "Agrinium Aluminum"
+  },
+  {
+    "value": "ore_carbonate_alantium",
+    "title": "p10101101110",
+    "name": "Alantium Carbonate Ore"
+  },
+  {
+    "value": "ore_siliclastic_ardanium",
+    "title": "p10101101110",
+    "name": "Ardanium Siliclastic Ore"
+  },
+  {
+    "value": "iron_axidite",
+    "title": "p11101101110",
+    "name": "Axidite Iron"
+  },
+  {
+    "value": "armophous_baltaran",
+    "title": "p10101101111",
+    "name": "Bal'ta'ran Crystal Amorphous Gemstone"
+  },
+  {
+    "value": "armophous_baradium",
+    "title": "p10101101111",
+    "name": "Baradium Amorphous Gemstone"
+  },
+  {
+    "value": "ore_carbonate_barthierium",
+    "title": "p10101101110",
+    "name": "Barthierium Carbonate Ore"
+  },
+  {
+    "value": "ore_extrusive_bene",
+    "title": "p10101101110",
+    "name": "Bene Extrusive Ore"
+  },
+  {
+    "value": "ore_intrusive_berubium",
+    "title": "p10101101110",
+    "name": "Berubium Intrusive Ore"
+  },
+  {
+    "value": "copper_beyrllius",
+    "title": "p11101101110",
+    "name": "Beyrllius Copper"
+  },
+  {
+    "value": "gas_inert_bilal",
+    "title": "p00100001000",
+    "name": "Bilal Inert Gas"
+  },
+  {
+    "value": "armophous_bospridium",
+    "title": "p10101101111",
+    "name": "Bospridium Amorphous Gemstone"
+  },
+  {
+    "value": "iron_bronzium",
+    "title": "p11101101110",
+    "name": "Bronzium Iron"
+  },
+  {
+    "value": "crystalline_byrothsis",
+    "title": "p10101101111",
+    "name": "Byrothsis Crystalline Gemstone"
+  },
+  {
+    "value": "copper_cagunese",
+    "title": "p11101101110",
+    "name": "Cagunese Copper"
+  },
+  {
+    "value": "ore_carbonate_calabite",
+    "title": "p10101101110",
+    "name": "Calabite Carbonate Ore"
+  },
+  {
+    "value": "steel_carbonite",
+    "title": "p11101101110",
+    "name": "Carbonite Steel"
+  },
+  {
+    "value": "bone_mammal_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Animal Bones"
+  },
+  {
+    "value": "bone_avian_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Avian Bones"
+  },
+  {
+    "value": "meat_avian_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Avian Meat"
+  },
+  {
+    "value": "fruit_berries_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Fiberplast"
+  },
+  {
+    "value": "seafood_fish_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Fruit"
+  },
+  {
+    "value": "meat_herbivore_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Horn"
+  },
+  {
+    "value": "meat_insect_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Insect Meat"
+  },
+  {
+    "value": "hide_leathery_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_chandrila",
+    "title": "p00000011000",
+    "name": "Chandrilan Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_chandrila",
+    "title": "p00100001000",
+    "name": "Chandrilan Water Vapor"
+  },
+  {
+    "value": "corn_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Corn"
+  },
+  {
+    "value": "meat_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Meat"
+  },
+  {
+    "value": "milk_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Milk"
+  },
+  {
+    "value": "oats_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Oats"
+  },
+  {
+    "value": "rice_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Rice"
+  },
+  {
+    "value": "wheat_wild_chandrila",
+    "title": "p00110011000",
+    "name": "Chandrilan Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_chandrila",
+    "title": "p00000011000",
+    "name": "Chandrilan Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_chandrila",
+    "title": "p00100101110",
+    "name": "Chandrilan Wooly Hide"
+  },
+  {
+    "value": "ore_intrusive_chanlon",
+    "title": "p10101101110",
+    "name": "Chanlon Intrusive Ore"
+  },
+  {
+    "value": "ore_carbonate_chromite",
+    "title": "p10101101110",
+    "name": "Chromite Carbonate Ore"
+  },
+  {
+    "value": "aluminum_chromium",
+    "title": "p11101101110",
+    "name": "Chromium Aluminum"
+  },
+  {
+    "value": "ore_extrusive_chronamite",
+    "title": "p10101101110",
+    "name": "Chronamite Extrusive Ore"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type1",
+    "title": "p00100011000",
+    "name": "Class 1 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type1",
+    "title": "p00100011000",
+    "name": "Class 1 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type1",
+    "title": "p00100011000",
+    "name": "Class 1 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type2",
+    "title": "p00100011000",
+    "name": "Class 2 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type2",
+    "title": "p00100011000",
+    "name": "Class 2 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type2",
+    "title": "p00100011000",
+    "name": "Class 2 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type3",
+    "title": "p00100011000",
+    "name": "Class 3 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type3",
+    "title": "p00100011000",
+    "name": "Class 3 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type3",
+    "title": "p00100011000",
+    "name": "Class 3 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type4",
+    "title": "p00100011000",
+    "name": "Class 4 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type4",
+    "title": "p00100011000",
+    "name": "Class 4 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type4",
+    "title": "p00100011000",
+    "name": "Class 4 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type5",
+    "title": "p00100011000",
+    "name": "Class 5 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type5",
+    "title": "p00100011000",
+    "name": "Class 5 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type5",
+    "title": "p00100011000",
+    "name": "Class 5 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type6",
+    "title": "p00100011000",
+    "name": "Class 6 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type6",
+    "title": "p00100011000",
+    "name": "Class 6 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type6",
+    "title": "p00100011000",
+    "name": "Class 6 Solid Petro Fuel"
+  },
+  {
+    "value": "petrochem_fuel_liquid_type7",
+    "title": "p00100011000",
+    "name": "Class 7 Liquid Petro Fuel"
+  },
+  {
+    "value": "radioactive_type7",
+    "title": "p00100011000",
+    "name": "Class 7 Radioactive"
+  },
+  {
+    "value": "petrochem_fuel_solid_type7",
+    "title": "p00100011000",
+    "name": "Class 7 Solid Petro Fuel"
+  },
+  {
+    "value": "copper_codoan",
+    "title": "p11101101110",
+    "name": "Codoan Copper"
+  },
+  {
+    "value": "iron_colat",
+    "title": "p11101101110",
+    "name": "Colat Iron"
+  },
+  {
+    "value": "copper_borocarbitic",
+    "title": "p11101101110",
+    "name": "Conductive Borcarbitic Copper"
+  },
+  {
+    "value": "bone_mammal_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Animal Bones"
+  },
+  {
+    "value": "bone_avian_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Avian Bones"
+  },
+  {
+    "value": "meat_avian_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_corellia",
+    "title": "p00000011000",
+    "name": "Corellian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Horn"
+  },
+  {
+    "value": "meat_insect_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_corellia",
+    "title": "p00000011000",
+    "name": "Corellian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_corellia",
+    "title": "p00100001000",
+    "name": "Corellian Water Vapor"
+  },
+  {
+    "value": "corn_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Corn"
+  },
+  {
+    "value": "meat_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Meat"
+  },
+  {
+    "value": "milk_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Milk"
+  },
+  {
+    "value": "oats_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Oats"
+  },
+  {
+    "value": "rice_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_corellia",
+    "title": "p00110011000",
+    "name": "Corellian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_corellia",
+    "title": "p00000011000",
+    "name": "Corellian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_corellia",
+    "title": "p00100101110",
+    "name": "Corellian Wooly Hide"
+  },
+  {
+    "value": "ore_intrusive_corintium",
+    "title": "p10101101110",
+    "name": "Corintium Intrusive Ore"
+  },
+  {
+    "value": "gas_inert_corthel",
+    "title": "p00100001000",
+    "name": "Corthel Inert Gas"
+  },
+  {
+    "value": "ore_siliclastic_cortosis",
+    "title": "p10101101110",
+    "name": "Cortosis Siliclastic Ore"
+  },
+  {
+    "value": "ore_siliclastic_crism",
+    "title": "p10101101110",
+    "name": "Crism Siliclastic Ore"
+  },
+  {
+    "value": "steel_bicorbantium",
+    "title": "p11101101110",
+    "name": "Crystallized Bicorbantium Steel"
+  },
+  {
+    "value": "steel_cubirian",
+    "title": "p11101101110",
+    "name": "Cubirian Steel"
+  },
+  {
+    "value": "gas_inert_culsion",
+    "title": "p00100001000",
+    "name": "Culsion Inert Gas"
+  },
+  {
+    "value": "bone_mammal_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Animal Bones"
+  },
+  {
+    "value": "bone_avian_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Avian Bones"
+  },
+  {
+    "value": "meat_avian_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Avian Meat"
+  },
+  {
+    "value": "fruit_berries_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Fiberplast"
+  },
+  {
+    "value": "seafood_fish_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_dantooine",
+    "title": "p00000011000",
+    "name": "Dantooine Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Horn"
+  },
+  {
+    "value": "meat_insect_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Insect Meat"
+  },
+  {
+    "value": "hide_leathery_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_dantooine",
+    "title": "p00000011000",
+    "name": "Dantooine Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_dantooine",
+    "title": "p00100001000",
+    "name": "Dantooine Water Vapor"
+  },
+  {
+    "value": "corn_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Corn"
+  },
+  {
+    "value": "meat_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Meat"
+  },
+  {
+    "value": "milk_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Milk"
+  },
+  {
+    "value": "oats_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Oats"
+  },
+  {
+    "value": "rice_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Rice"
+  },
+  {
+    "value": "wheat_wild_dantooine",
+    "title": "p00110011000",
+    "name": "Dantooine Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_dantooine",
+    "title": "p00000011000",
+    "name": "Dantooine Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_dantooine",
+    "title": "p00100101110",
+    "name": "Dantooine Wooly Hide"
+  },
+  {
+    "value": "bone_mammal_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Animal Bones"
+  },
+  {
+    "value": "bone_avian_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Avian Bones"
+  },
+  {
+    "value": "meat_avian_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_dathomir",
+    "title": "p00000011000",
+    "name": "Dathomirian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Horn"
+  },
+  {
+    "value": "meat_insect_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_dathomir",
+    "title": "p00000011000",
+    "name": "Dathomirian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_dathomir",
+    "title": "p00100001000",
+    "name": "Dathomirian Water Vapor"
+  },
+  {
+    "value": "corn_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Corn"
+  },
+  {
+    "value": "meat_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Meat"
+  },
+  {
+    "value": "milk_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Milk"
+  },
+  {
+    "value": "oats_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Oats"
+  },
+  {
+    "value": "rice_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_dathomir",
+    "title": "p00110011000",
+    "name": "Dathomirian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_dathomir",
+    "title": "p00000011000",
+    "name": "Dathomirian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_dathomir",
+    "title": "p00100101110",
+    "name": "Dathomirian Wooly Hide"
+  },
+  {
+    "value": "ore_intrusive_derillium",
+    "title": "p10101101110",
+    "name": "Derillium Intrusive Ore"
+  },
+  {
+    "value": "copper_desh",
+    "title": "p11101101110",
+    "name": "Desh Copper"
+  },
+  {
+    "value": "copper_diatium",
+    "title": "p11101101110",
+    "name": "Diatium Copper"
+  },
+  {
+    "value": "gas_inert_dioxis",
+    "title": "p00100001000",
+    "name": "Dioxis Inert Gas"
+  },
+  {
+    "value": "steel_ditanium",
+    "title": "p11101101110",
+    "name": "Ditanium Steel"
+  },
+  {
+    "value": "iron_dolovite",
+    "title": "p11101101110",
+    "name": "Dolovite Iron"
+  },
+  {
+    "value": "iron_doonium",
+    "title": "p11101101110",
+    "name": "Doonium Iron"
+  },
+  {
+    "value": "steel_duralloy",
+    "title": "p11101101110",
+    "name": "Duralloy Steel"
+  },
+  {
+    "value": "aluminum_duralumin",
+    "title": "p11101101110",
+    "name": "Duralumin Aluminum"
+  },
+  {
+    "value": "steel_duranium",
+    "title": "p11101101110",
+    "name": "Duranium Steel"
+  },
+  {
+    "value": "ore_intrusive_dylinium",
+    "title": "p10101101110",
+    "name": "Dylinium Intrusive Ore"
+  },
+  {
+    "value": "gas_reactive_eleton",
+    "title": "p00100001000",
+    "name": "Eleton Reactive Gas"
+  },
+  {
+    "value": "bone_mammal_endor",
+    "title": "p00100101110",
+    "name": "Endorian Animal Bones"
+  },
+  {
+    "value": "bone_avian_endor",
+    "title": "p00100101110",
+    "name": "Endorian Avian Bones"
+  },
+  {
+    "value": "meat_avian_endor",
+    "title": "p00110011000",
+    "name": "Endorian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_endor",
+    "title": "p00110011000",
+    "name": "Endorian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_endor",
+    "title": "p00100101110",
+    "name": "Endorian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_endor",
+    "title": "p00110011000",
+    "name": "Endorian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_endor",
+    "title": "p00100101110",
+    "name": "Endorian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_endor",
+    "title": "p00110011000",
+    "name": "Endorian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_endor",
+    "title": "p00100101110",
+    "name": "Endorian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_endor",
+    "title": "p00110011000",
+    "name": "Endorian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_endor",
+    "title": "p00110011000",
+    "name": "Endorian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_endor",
+    "title": "p00100101110",
+    "name": "Endorian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_endor",
+    "title": "p00100101110",
+    "name": "Endorian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_endor",
+    "title": "p00110011000",
+    "name": "Endorian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_endor",
+    "title": "p00110011000",
+    "name": "Endorian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_endor",
+    "title": "p00110011000",
+    "name": "Endorian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_endor",
+    "title": "p00000011000",
+    "name": "Endorian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_endor",
+    "title": "p00110011000",
+    "name": "Endorian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_endor",
+    "title": "p00100101110",
+    "name": "Endorian Horn"
+  },
+  {
+    "value": "meat_insect_endor",
+    "title": "p00110011000",
+    "name": "Endorian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_endor",
+    "title": "p00100101110",
+    "name": "Endorian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_endor",
+    "title": "p00110011000",
+    "name": "Endorian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_endor",
+    "title": "p00110011000",
+    "name": "Endorian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_endor",
+    "title": "p00100101110",
+    "name": "Endorian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_endor",
+    "title": "p00000011000",
+    "name": "Endorian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_endor",
+    "title": "p00110011000",
+    "name": "Endorian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_endor",
+    "title": "p00110011000",
+    "name": "Endorian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_endor",
+    "title": "p00110011000",
+    "name": "Endorian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_endor",
+    "title": "p00110011000",
+    "name": "Endorian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_endor",
+    "title": "p00100001000",
+    "name": "Endorian Water Vapor"
+  },
+  {
+    "value": "corn_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Corn"
+  },
+  {
+    "value": "meat_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Meat"
+  },
+  {
+    "value": "milk_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Milk"
+  },
+  {
+    "value": "oats_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Oats"
+  },
+  {
+    "value": "rice_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_endor",
+    "title": "p00110011000",
+    "name": "Endorian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_endor",
+    "title": "p00000011000",
+    "name": "Endorian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_endor",
+    "title": "p00100101110",
+    "name": "Endorian Wooly Hide"
+  },
+  {
+    "value": "ore_siliclastic_fermionic",
+    "title": "p10101101110",
+    "name": "Fermionic Siliclastic Ore"
+  },
+  {
+    "value": "bone_mammal_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Animal Bones"
+  },
+  {
+    "value": "bone_avian_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Avian Bones"
+  },
+  {
+    "value": "meat_avian_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Avian Meat"
+  },
+  {
+    "value": "fruit_berries_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Fiberplast"
+  },
+  {
+    "value": "seafood_fish_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Fruit"
+  },
+  {
+    "value": "meat_herbivore_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Horn"
+  },
+  {
+    "value": "meat_insect_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Insect Meat"
+  },
+  {
+    "value": "hide_leathery_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_florrum",
+    "title": "p00000011000",
+    "name": "Florrum Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_florrum",
+    "title": "p00100001000",
+    "name": "Florrum Water Vapor"
+  },
+  {
+    "value": "corn_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Corn"
+  },
+  {
+    "value": "meat_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Meat"
+  },
+  {
+    "value": "milk_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Milk"
+  },
+  {
+    "value": "oats_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Oats"
+  },
+  {
+    "value": "rice_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Rice"
+  },
+  {
+    "value": "wheat_wild_florrum",
+    "title": "p00110011000",
+    "name": "Florrum Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_florrum",
+    "title": "p00000011000",
+    "name": "Florrum Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_florrum",
+    "title": "p00100101110",
+    "name": "Florrum Wooly Hide"
+  },
+  {
+    "value": "ore_carbonate_frasium",
+    "title": "p10101101110",
+    "name": "Frasium Carbonate Ore"
+  },
+  {
+    "value": "ore_intrusive_galatite",
+    "title": "p10101101110",
+    "name": "Galatite Intrusive Ore"
+  },
+  {
+    "value": "crystalline_gallinorian",
+    "title": "p10101101111",
+    "name": "Gallinorian Rainbow Gem Crystalline Gemstone"
+  },
+  {
+    "value": "aluminum_galvanicyn",
+    "title": "p11101101110",
+    "name": "Galvanicyn Aluminum"
+  },
+  {
+    "value": "fiberplast_gravitonic",
+    "title": "p00100101110",
+    "name": "Gravitonic Fiberplast"
+  },
+  {
+    "value": "crystalline_green_diamond",
+    "title": "p10101101111",
+    "name": "Green Diamond Crystalline Gemstone"
+  },
+  {
+    "value": "steel_arveshian",
+    "title": "p11101101110",
+    "name": "Hardened Arveshium Steel"
+  },
+  {
+    "value": "iron_hemalite",
+    "title": "p11101101110",
+    "name": "Hemalite Iron"
+  },
+  {
+    "value": "radioactive_polymetric",
+    "title": "p00100011000",
+    "name": "High Grade Polymetric Radioactive"
+  },
+  {
+    "value": "ore_intrusive_hollinium",
+    "title": "p10101101110",
+    "name": "Hollinium Intrusive Ore"
+  },
+  {
+    "value": "gas_inert_hurlothrombic",
+    "title": "p00100001000",
+    "name": "Hurlothrombic Inert Gas"
+  },
+  {
+    "value": "gas_inert_hydron3",
+    "title": "p00100001000",
+    "name": "Hydron-3 Inert Gas"
+  },
+  {
+    "value": "ore_extrusive_ilimium",
+    "title": "p10101101110",
+    "name": "Ilimium Extrusive Ore"
+  },
+  {
+    "value": "ore_intrusive_ionite",
+    "title": "p10101101110",
+    "name": "Ionite Intrusive Ore"
+  },
+  {
+    "value": "gas_reactive_irolunn",
+    "title": "p00100001000",
+    "name": "Irolunn Reactive Gas"
+  },
+  {
+    "value": "aluminum_kaas",
+    "title": "p11101101110",
+    "name": "Kaasian Aluminum"
+  },
+  {
+    "value": "armophous_kaas",
+    "title": "p10101101111",
+    "name": "Kaasian Amorphous Gemstone"
+  },
+  {
+    "value": "bone_mammal_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Animal Bones"
+  },
+  {
+    "value": "bone_avian_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Avian Bones"
+  },
+  {
+    "value": "meat_avian_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Bristley Hide"
+  },
+  {
+    "value": "ore_carbonate_kaas",
+    "title": "p10101101110",
+    "name": "Kaasian Carbonate Ore"
+  },
+  {
+    "value": "meat_carnivore_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Conifer Wood"
+  },
+  {
+    "value": "copper_kaas",
+    "title": "p11101101110",
+    "name": "Kaasian Copper"
+  },
+  {
+    "value": "seafood_crustacean_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Crustacean Meat"
+  },
+  {
+    "value": "crystalline_kaas",
+    "title": "p10101101111",
+    "name": "Kaasian Crystalline Gemstone"
+  },
+  {
+    "value": "wood_deciduous_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Evergreen Wood"
+  },
+  {
+    "value": "ore_extrusive_kaas",
+    "title": "p10101101110",
+    "name": "Kaasian Extrusive Ore"
+  },
+  {
+    "value": "fiberplast_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_kaas",
+    "title": "p00000011000",
+    "name": "Kaasian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Horn"
+  },
+  {
+    "value": "gas_inert_kaas",
+    "title": "p00100001000",
+    "name": "Kaasian Inert Gas"
+  },
+  {
+    "value": "meat_insect_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Insect Meat"
+  },
+  {
+    "value": "ore_intrusive_kaas",
+    "title": "p10101101110",
+    "name": "Kaasian Intrusive Ore"
+  },
+  {
+    "value": "iron_kaas",
+    "title": "p11101101110",
+    "name": "Kaasian Iron"
+  },
+  {
+    "value": "hide_leathery_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Leathery Hide"
+  },
+  {
+    "value": "petrochem_fuel_liquid_kaas",
+    "title": "p00100011000",
+    "name": "Kaasian Liquid Petro Fuel"
+  },
+  {
+    "value": "seafood_mollusk_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Mollusk Meat"
+  },
+  {
+    "value": "radioactive_kaas",
+    "title": "p00100011000",
+    "name": "Kaasian Radioactive"
+  },
+  {
+    "value": "gas_reactive_kaas",
+    "title": "p00100001000",
+    "name": "Kaasian Reactive Gas"
+  },
+  {
+    "value": "meat_reptillian_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Scaley Hide"
+  },
+  {
+    "value": "ore_siliclastic_kaas",
+    "title": "p10101101110",
+    "name": "Kaasian Siliclastic Ore"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_kaas",
+    "title": "p00000011000",
+    "name": "Kaasian Solar Renewable Energy"
+  },
+  {
+    "value": "petrochem_fuel_solid_kaas",
+    "title": "p00100011000",
+    "name": "Kaasian Solid Petro Fuel"
+  },
+  {
+    "value": "steel_kaas",
+    "title": "p11101101110",
+    "name": "Kaasian Steel"
+  },
+  {
+    "value": "vegetable_beans_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_kaas",
+    "title": "p00100001000",
+    "name": "Kaasian Water Vapor"
+  },
+  {
+    "value": "corn_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Corn"
+  },
+  {
+    "value": "meat_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Meat"
+  },
+  {
+    "value": "milk_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Milk"
+  },
+  {
+    "value": "oats_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Oats"
+  },
+  {
+    "value": "rice_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_kaas",
+    "title": "p00110011000",
+    "name": "Kaasian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_kaas",
+    "title": "p00000011000",
+    "name": "Kaasian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_kaas",
+    "title": "p00100101110",
+    "name": "Kaasian Wooly Hide"
+  },
+  {
+    "value": "ore_extrusive_kalonterium",
+    "title": "p10101101110",
+    "name": "Kalonterium Extrusive Ore"
+  },
+  {
+    "value": "iron_kammris",
+    "title": "p11101101110",
+    "name": "Kammris Iron"
+  },
+  {
+    "value": "ore_intrusive_katrium",
+    "title": "p10101101110",
+    "name": "Katrium Intrusive Ore"
+  },
+  {
+    "value": "gas_inert_kaylon",
+    "title": "p00100001000",
+    "name": "Kaylon Inert Gas"
+  },
+  {
+    "value": "copper_kelsh",
+    "title": "p11101101110",
+    "name": "Kelsh Copper"
+  },
+  {
+    "value": "crystalline_kerol_firegem",
+    "title": "p10101101111",
+    "name": "Kerol Fire-Gem Crystalline Gemstone"
+  },
+  {
+    "value": "ore_extrusive_keschel",
+    "title": "p10101101110",
+    "name": "Keschel Extrusive Ore"
+  },
+  {
+    "value": "steel_kiirium",
+    "title": "p11101101110",
+    "name": "Kiirium Steel"
+  },
+  {
+    "value": "gas_inert_korfaise",
+    "title": "p00100001000",
+    "name": "Korfaise Inert Gas"
+  },
+  {
+    "value": "crystalline_laboi_mineral_crystal",
+    "title": "p10101101111",
+    "name": "Laboi Mineral Crystal Crystalline Gemstone"
+  },
+  {
+    "value": "ore_extrusive_lidium",
+    "title": "p10101101110",
+    "name": "Lidium Extrusive Ore"
+  },
+  {
+    "value": "aluminum_linksteel",
+    "title": "p11101101110",
+    "name": "Link-Steel Aluminum"
+  },
+  {
+    "value": "bone_mammal_lok",
+    "title": "p00100101110",
+    "name": "Lokian Animal Bones"
+  },
+  {
+    "value": "bone_avian_lok",
+    "title": "p00100101110",
+    "name": "Lokian Avian Bones"
+  },
+  {
+    "value": "meat_avian_lok",
+    "title": "p00110011000",
+    "name": "Lokian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_lok",
+    "title": "p00110011000",
+    "name": "Lokian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_lok",
+    "title": "p00100101110",
+    "name": "Lokian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_lok",
+    "title": "p00110011000",
+    "name": "Lokian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_lok",
+    "title": "p00100101110",
+    "name": "Lokian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_lok",
+    "title": "p00110011000",
+    "name": "Lokian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_lok",
+    "title": "p00100101110",
+    "name": "Lokian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_lok",
+    "title": "p00110011000",
+    "name": "Lokian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_lok",
+    "title": "p00110011000",
+    "name": "Lokian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_lok",
+    "title": "p00100101110",
+    "name": "Lokian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_lok",
+    "title": "p00100101110",
+    "name": "Lokian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_lok",
+    "title": "p00110011000",
+    "name": "Lokian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_lok",
+    "title": "p00110011000",
+    "name": "Lokian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_lok",
+    "title": "p00110011000",
+    "name": "Lokian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_lok",
+    "title": "p00000011000",
+    "name": "Lokian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_lok",
+    "title": "p00110011000",
+    "name": "Lokian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_lok",
+    "title": "p00100101110",
+    "name": "Lokian Horn"
+  },
+  {
+    "value": "meat_insect_lok",
+    "title": "p00110011000",
+    "name": "Lokian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_lok",
+    "title": "p00100101110",
+    "name": "Lokian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_lok",
+    "title": "p00110011000",
+    "name": "Lokian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_lok",
+    "title": "p00110011000",
+    "name": "Lokian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_lok",
+    "title": "p00100101110",
+    "name": "Lokian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_lok",
+    "title": "p00000011000",
+    "name": "Lokian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_lok",
+    "title": "p00110011000",
+    "name": "Lokian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_lok",
+    "title": "p00110011000",
+    "name": "Lokian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_lok",
+    "title": "p00110011000",
+    "name": "Lokian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_lok",
+    "title": "p00110011000",
+    "name": "Lokian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_lok",
+    "title": "p00100001000",
+    "name": "Lokian Water Vapor"
+  },
+  {
+    "value": "corn_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Corn"
+  },
+  {
+    "value": "meat_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Meat"
+  },
+  {
+    "value": "milk_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Milk"
+  },
+  {
+    "value": "oats_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Oats"
+  },
+  {
+    "value": "rice_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_lok",
+    "title": "p00110011000",
+    "name": "Lokian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_lok",
+    "title": "p00000011000",
+    "name": "Lokian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_lok",
+    "title": "p00100101110",
+    "name": "Lokian Wooly Hide"
+  },
+  {
+    "value": "ore_carbonate_lommite",
+    "title": "p10101101110",
+    "name": "Lommite Carbonate Ore"
+  },
+  {
+    "value": "aluminum_lothal",
+    "title": "p11101101110",
+    "name": "Lothal Aluminum"
+  },
+  {
+    "value": "armophous_lothal",
+    "title": "p10101101111",
+    "name": "Lothal Amorphous Gemstone"
+  },
+  {
+    "value": "bone_mammal_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Animal Bones"
+  },
+  {
+    "value": "bone_avian_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Avian Bones"
+  },
+  {
+    "value": "meat_avian_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Avian Meat"
+  },
+  {
+    "value": "fruit_berries_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Bristley Hide"
+  },
+  {
+    "value": "ore_carbonate_lothal",
+    "title": "p10101101110",
+    "name": "Lothal Carbonate Ore"
+  },
+  {
+    "value": "meat_carnivore_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Conifer Wood"
+  },
+  {
+    "value": "copper_lothal",
+    "title": "p11101101110",
+    "name": "Lothal Copper"
+  },
+  {
+    "value": "seafood_crustacean_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Crustacean Meat"
+  },
+  {
+    "value": "crystalline_lothal",
+    "title": "p10101101111",
+    "name": "Lothal Crystalline Gemstone"
+  },
+  {
+    "value": "wood_deciduous_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Evergreen Wood"
+  },
+  {
+    "value": "ore_extrusive_lothal",
+    "title": "p10101101110",
+    "name": "Lothal Extrusive Ore"
+  },
+  {
+    "value": "fiberplast_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Fiberplast"
+  },
+  {
+    "value": "seafood_fish_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_lothal",
+    "title": "p00000011000",
+    "name": "Lothal Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Horn"
+  },
+  {
+    "value": "gas_inert_lothal",
+    "title": "p00100001000",
+    "name": "Lothal Inert Gas"
+  },
+  {
+    "value": "meat_insect_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Insect Meat"
+  },
+  {
+    "value": "ore_intrusive_lothal",
+    "title": "p10101101110",
+    "name": "Lothal Intrusive Ore"
+  },
+  {
+    "value": "iron_lothal",
+    "title": "p11101101110",
+    "name": "Lothal Iron"
+  },
+  {
+    "value": "hide_leathery_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Leathery Hide"
+  },
+  {
+    "value": "petrochem_fuel_liquid_lothal",
+    "title": "p00100011000",
+    "name": "Lothal Liquid Petro Fuel"
+  },
+  {
+    "value": "seafood_mollusk_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Mollusk Meat"
+  },
+  {
+    "value": "radioactive_lothal",
+    "title": "p00100011000",
+    "name": "Lothal Radioactive"
+  },
+  {
+    "value": "gas_reactive_lothal",
+    "title": "p00100001000",
+    "name": "Lothal Reactive Gas"
+  },
+  {
+    "value": "meat_reptillian_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Scaley Hide"
+  },
+  {
+    "value": "ore_siliclastic_lothal",
+    "title": "p10101101110",
+    "name": "Lothal Siliclastic Ore"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_lothal",
+    "title": "p00000011000",
+    "name": "Lothal Solar Renewable Energy"
+  },
+  {
+    "value": "petrochem_fuel_solid_lothal",
+    "title": "p00100011000",
+    "name": "Lothal Solid Petro Fuel"
+  },
+  {
+    "value": "steel_lothal",
+    "title": "p11101101110",
+    "name": "Lothal Steel"
+  },
+  {
+    "value": "vegetable_beans_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_lothal",
+    "title": "p00100001000",
+    "name": "Lothal Water Vapor"
+  },
+  {
+    "value": "corn_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Corn"
+  },
+  {
+    "value": "meat_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Meat"
+  },
+  {
+    "value": "milk_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Milk"
+  },
+  {
+    "value": "oats_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Oats"
+  },
+  {
+    "value": "rice_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Rice"
+  },
+  {
+    "value": "wheat_wild_lothal",
+    "title": "p00110011000",
+    "name": "Lothal Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_lothal",
+    "title": "p00000011000",
+    "name": "Lothal Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_lothal",
+    "title": "p00100101110",
+    "name": "Lothal Wooly Hide"
+  },
+  {
+    "value": "petrochem_inert_lubricating_oil",
+    "title": "p00100001000",
+    "name": "Lubricating Oil"
+  },
+  {
+    "value": "ore_extrusive_maganite",
+    "title": "p10101101110",
+    "name": "Maganite Extrusive Ore"
+  },
+  {
+    "value": "ore_siliclastic_malab",
+    "title": "p10101101110",
+    "name": "Malab Siliclastic Ore"
+  },
+  {
+    "value": "gas_inert_malium",
+    "title": "p00100001000",
+    "name": "Malium Inert Gas"
+  },
+  {
+    "value": "ore_extrusive_maranium",
+    "title": "p10101101110",
+    "name": "Maranium Extrusive Ore"
+  },
+  {
+    "value": "gas_inert_methanagen",
+    "title": "p00100001000",
+    "name": "Methanagen Inert Gas"
+  },
+  {
+    "value": "gas_reactive_methane",
+    "title": "p00100001000",
+    "name": "Methane Reactive Gas"
+  },
+  {
+    "value": "gas_inert_mirth",
+    "title": "p00100001000",
+    "name": "Mirth Inert Gas"
+  },
+  {
+    "value": "bone_mammal_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Animal Bones"
+  },
+  {
+    "value": "bone_avian_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Avian Bones"
+  },
+  {
+    "value": "meat_avian_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Avian Meat"
+  },
+  {
+    "value": "fruit_berries_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Fiberplast"
+  },
+  {
+    "value": "seafood_fish_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Fruit"
+  },
+  {
+    "value": "meat_herbivore_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Horn"
+  },
+  {
+    "value": "meat_insect_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Insect Meat"
+  },
+  {
+    "value": "hide_leathery_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_moraband",
+    "title": "p00000011000",
+    "name": "Moraband Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_moraband",
+    "title": "p00100001000",
+    "name": "Moraband Water Vapor"
+  },
+  {
+    "value": "corn_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Corn"
+  },
+  {
+    "value": "meat_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Meat"
+  },
+  {
+    "value": "milk_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Milk"
+  },
+  {
+    "value": "oats_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Oats"
+  },
+  {
+    "value": "rice_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Rice"
+  },
+  {
+    "value": "wheat_wild_moraband",
+    "title": "p00110011000",
+    "name": "Moraband Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_moraband",
+    "title": "p00000011000",
+    "name": "Moraband Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_moraband",
+    "title": "p00100101110",
+    "name": "Moraband Wooly Hide"
+  },
+  {
+    "value": "copper_mythra",
+    "title": "p11101101110",
+    "name": "Mythra Copper"
+  },
+  {
+    "value": "bone_mammal_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Animal Bones"
+  },
+  {
+    "value": "bone_avian_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Avian Bones"
+  },
+  {
+    "value": "meat_avian_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_naboo",
+    "title": "p00000011000",
+    "name": "Nabooian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Horn"
+  },
+  {
+    "value": "meat_insect_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_naboo",
+    "title": "p00000011000",
+    "name": "Nabooian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_naboo",
+    "title": "p00100001000",
+    "name": "Nabooian Water Vapor"
+  },
+  {
+    "value": "corn_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Corn"
+  },
+  {
+    "value": "meat_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Meat"
+  },
+  {
+    "value": "milk_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Milk"
+  },
+  {
+    "value": "oats_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Oats"
+  },
+  {
+    "value": "rice_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_naboo",
+    "title": "p00110011000",
+    "name": "Nabooian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_naboo",
+    "title": "p00000011000",
+    "name": "Nabooian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_naboo",
+    "title": "p00100101110",
+    "name": "Nabooian Wooly Hide"
+  },
+  {
+    "value": "bone_mammal_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Animal Bones"
+  },
+  {
+    "value": "bone_avian_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Avian Bones"
+  },
+  {
+    "value": "meat_avian_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Avian Meat"
+  },
+  {
+    "value": "fruit_berries_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Fiberplast"
+  },
+  {
+    "value": "seafood_fish_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Fruit"
+  },
+  {
+    "value": "meat_herbivore_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Horn"
+  },
+  {
+    "value": "meat_insect_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Insect Meat"
+  },
+  {
+    "value": "hide_leathery_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_nalhutta",
+    "title": "p00000011000",
+    "name": "Nal Hutta Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_nalhutta",
+    "title": "p00100001000",
+    "name": "Nal Hutta Water Vapor"
+  },
+  {
+    "value": "corn_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Corn"
+  },
+  {
+    "value": "meat_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Meat"
+  },
+  {
+    "value": "milk_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Milk"
+  },
+  {
+    "value": "oats_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Oats"
+  },
+  {
+    "value": "rice_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Rice"
+  },
+  {
+    "value": "wheat_wild_nalhutta",
+    "title": "p00110011000",
+    "name": "Nal Hutta Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_nalhutta",
+    "title": "p00000011000",
+    "name": "Nal Hutta Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_nalhutta",
+    "title": "p00100101110",
+    "name": "Nal Hutta Wooly Hide"
+  },
+  {
+    "value": "steel_neutronium",
+    "title": "p11101101110",
+    "name": "Neutronium Steel"
+  },
+  {
+    "value": "gas_inert_obah",
+    "title": "p00100001000",
+    "name": "Obah Inert Gas"
+  },
+  {
+    "value": "ore_intrusive_oridium",
+    "title": "p10101101110",
+    "name": "Oridium Intrusive Ore"
+  },
+  {
+    "value": "gas_reactive_orveth",
+    "title": "p00100001000",
+    "name": "Orveth Reactive Gas"
+  },
+  {
+    "value": "ore_carbonate_ostrine",
+    "title": "p10101101110",
+    "name": "Ostrine Carbonate Ore"
+  },
+  {
+    "value": "aluminum_perovskitic",
+    "title": "p11101101110",
+    "name": "Perovskitic Aluminum"
+  },
+  {
+    "value": "ore_extrusive_pholokite",
+    "title": "p10101101110",
+    "name": "Pholokite Extrusive Ore"
+  },
+  {
+    "value": "aluminum_phrik",
+    "title": "p11101101110",
+    "name": "Phrik Aluminum"
+  },
+  {
+    "value": "copper_platinite",
+    "title": "p11101101110",
+    "name": "Platinite Copper"
+  },
+  {
+    "value": "armophous_plexite",
+    "title": "p10101101111",
+    "name": "Plexite Amorphous Gemstone"
+  },
+  {
+    "value": "iron_plumbum",
+    "title": "p11101101110",
+    "name": "Plumbum Iron"
+  },
+  {
+    "value": "iron_polonium",
+    "title": "p11101101110",
+    "name": "Polonium Iron"
+  },
+  {
+    "value": "petrochem_inert_polymer",
+    "title": "p00100101110",
+    "name": "Polymer"
+  },
+  {
+    "value": "copper_polysteel",
+    "title": "p11101101110",
+    "name": "Polysteel Copper"
+  },
+  {
+    "value": "steel_quadranium",
+    "title": "p11101101110",
+    "name": "Quadranium Steel"
+  },
+  {
+    "value": "ore_extrusive_quadrenium",
+    "title": "p10101101110",
+    "name": "Quadrenium Extrusive Ore"
+  },
+  {
+    "value": "armophous_regvis",
+    "title": "p10101101111",
+    "name": "Regvis Amorphous Gemstone"
+  },
+  {
+    "value": "gas_inert_rethin",
+    "title": "p00100001000",
+    "name": "Rethin Inert Gas"
+  },
+  {
+    "value": "steel_rhodium",
+    "title": "p11101101110",
+    "name": "Rhodium Steel"
+  },
+  {
+    "value": "ore_siliclastic_robindun",
+    "title": "p10101101110",
+    "name": "Robindun Siliclastic Ore"
+  },
+  {
+    "value": "bone_mammal_rori",
+    "title": "p00100101110",
+    "name": "Rori Animal Bones"
+  },
+  {
+    "value": "bone_avian_rori",
+    "title": "p00100101110",
+    "name": "Rori Avian Bones"
+  },
+  {
+    "value": "meat_avian_rori",
+    "title": "p00110011000",
+    "name": "Rori Avian Meat"
+  },
+  {
+    "value": "fruit_berries_rori",
+    "title": "p00110011000",
+    "name": "Rori Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_rori",
+    "title": "p00100101110",
+    "name": "Rori Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_rori",
+    "title": "p00110011000",
+    "name": "Rori Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_rori",
+    "title": "p00100101110",
+    "name": "Rori Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_rori",
+    "title": "p00110011000",
+    "name": "Rori Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_rori",
+    "title": "p00100101110",
+    "name": "Rori Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_rori",
+    "title": "p00110011000",
+    "name": "Rori Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_rori",
+    "title": "p00110011000",
+    "name": "Rori Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_rori",
+    "title": "p00100101110",
+    "name": "Rori Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_rori",
+    "title": "p00100101110",
+    "name": "Rori Fiberplast"
+  },
+  {
+    "value": "seafood_fish_rori",
+    "title": "p00110011000",
+    "name": "Rori Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_rori",
+    "title": "p00110011000",
+    "name": "Rori Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_rori",
+    "title": "p00110011000",
+    "name": "Rori Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_rori",
+    "title": "p00000011000",
+    "name": "Rori Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_rori",
+    "title": "p00110011000",
+    "name": "Rori Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_rori",
+    "title": "p00100101110",
+    "name": "Rori Horn"
+  },
+  {
+    "value": "meat_insect_rori",
+    "title": "p00110011000",
+    "name": "Rori Insect Meat"
+  },
+  {
+    "value": "hide_leathery_rori",
+    "title": "p00100101110",
+    "name": "Rori Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_rori",
+    "title": "p00110011000",
+    "name": "Rori Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_rori",
+    "title": "p00110011000",
+    "name": "Rori Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_rori",
+    "title": "p00100101110",
+    "name": "Rori Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_rori",
+    "title": "p00000011000",
+    "name": "Rori Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_rori",
+    "title": "p00110011000",
+    "name": "Rori Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_rori",
+    "title": "p00110011000",
+    "name": "Rori Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_rori",
+    "title": "p00110011000",
+    "name": "Rori Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_rori",
+    "title": "p00110011000",
+    "name": "Rori Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_rori",
+    "title": "p00100001000",
+    "name": "Rori Water Vapor"
+  },
+  {
+    "value": "corn_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Corn"
+  },
+  {
+    "value": "meat_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Meat"
+  },
+  {
+    "value": "milk_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Milk"
+  },
+  {
+    "value": "oats_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Oats"
+  },
+  {
+    "value": "rice_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Rice"
+  },
+  {
+    "value": "wheat_wild_rori",
+    "title": "p00110011000",
+    "name": "Rori Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_rori",
+    "title": "p00000011000",
+    "name": "Rori Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_rori",
+    "title": "p00100101110",
+    "name": "Rori Wooly Hide"
+  },
+  {
+    "value": "armophous_rudic",
+    "title": "p10101101111",
+    "name": "Rudic Amorphous Gemstone"
+  },
+  {
+    "value": "armophous_ryll",
+    "title": "p10101101111",
+    "name": "Ryll Amorphous Gemstone"
+  },
+  {
+    "value": "gas_inert_rylon",
+    "title": "p00100001000",
+    "name": "Rylon Inert Gas"
+  },
+  {
+    "value": "crystalline_seafah_jewel",
+    "title": "p10101101111",
+    "name": "Seafah Jewel Crystalline Gemstone"
+  },
+  {
+    "value": "armophous_sedrellium",
+    "title": "p10101101111",
+    "name": "Sedrellium Amorphous Gemstone"
+  },
+  {
+    "value": "gas_reactive_sig",
+    "title": "p00100001000",
+    "name": "Sig Reactive Gas"
+  },
+  {
+    "value": "gas_reactive_skevon",
+    "title": "p00100001000",
+    "name": "Skevon Reactive Gas"
+  },
+  {
+    "value": "crystalline_sormahil_firegem",
+    "title": "p10101101111",
+    "name": "Sormahil Fire Gem Crystalline Gemstone"
+  },
+  {
+    "value": "armophous_stygium",
+    "title": "p10101101111",
+    "name": "Stygium Amorphous Gemstone"
+  },
+  {
+    "value": "bone_mammal_talus",
+    "title": "p00100101110",
+    "name": "Talusian Animal Bones"
+  },
+  {
+    "value": "bone_avian_talus",
+    "title": "p00100101110",
+    "name": "Talusian Avian Bones"
+  },
+  {
+    "value": "meat_avian_talus",
+    "title": "p00110011000",
+    "name": "Talusian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_talus",
+    "title": "p00110011000",
+    "name": "Talusian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_talus",
+    "title": "p00100101110",
+    "name": "Talusian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_talus",
+    "title": "p00110011000",
+    "name": "Talusian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_talus",
+    "title": "p00100101110",
+    "name": "Talusian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_talus",
+    "title": "p00110011000",
+    "name": "Talusian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_talus",
+    "title": "p00100101110",
+    "name": "Talusian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_talus",
+    "title": "p00110011000",
+    "name": "Talusian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_talus",
+    "title": "p00110011000",
+    "name": "Talusian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_talus",
+    "title": "p00100101110",
+    "name": "Talusian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_talus",
+    "title": "p00100101110",
+    "name": "Talusian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_talus",
+    "title": "p00110011000",
+    "name": "Talusian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_talus",
+    "title": "p00110011000",
+    "name": "Talusian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_talus",
+    "title": "p00110011000",
+    "name": "Talusian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_talus",
+    "title": "p00000011000",
+    "name": "Talusian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_talus",
+    "title": "p00110011000",
+    "name": "Talusian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_talus",
+    "title": "p00100101110",
+    "name": "Talusian Horn"
+  },
+  {
+    "value": "meat_insect_talus",
+    "title": "p00110011000",
+    "name": "Talusian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_talus",
+    "title": "p00100101110",
+    "name": "Talusian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_talus",
+    "title": "p00110011000",
+    "name": "Talusian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_talus",
+    "title": "p00110011000",
+    "name": "Talusian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_talus",
+    "title": "p00100101110",
+    "name": "Talusian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_talus",
+    "title": "p00000011000",
+    "name": "Talusian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_talus",
+    "title": "p00110011000",
+    "name": "Talusian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_talus",
+    "title": "p00110011000",
+    "name": "Talusian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_talus",
+    "title": "p00110011000",
+    "name": "Talusian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_talus",
+    "title": "p00110011000",
+    "name": "Talusian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_talus",
+    "title": "p00100001000",
+    "name": "Talusian Water Vapor"
+  },
+  {
+    "value": "corn_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Corn"
+  },
+  {
+    "value": "meat_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Meat"
+  },
+  {
+    "value": "milk_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Milk"
+  },
+  {
+    "value": "oats_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Oats"
+  },
+  {
+    "value": "rice_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_talus",
+    "title": "p00110011000",
+    "name": "Talusian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_talus",
+    "title": "p00000011000",
+    "name": "Talusian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_talus",
+    "title": "p00100101110",
+    "name": "Talusian Wooly Hide"
+  },
+  {
+    "value": "bone_mammal_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Animal Bones"
+  },
+  {
+    "value": "bone_avian_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Avian Bones"
+  },
+  {
+    "value": "meat_avian_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_tatooine",
+    "title": "p00000011000",
+    "name": "Tatooinian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Horn"
+  },
+  {
+    "value": "meat_insect_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_tatooine",
+    "title": "p00000011000",
+    "name": "Tatooinian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_tatooine",
+    "title": "p00100001000",
+    "name": "Tatooinian Water Vapor"
+  },
+  {
+    "value": "corn_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Corn"
+  },
+  {
+    "value": "meat_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Meat"
+  },
+  {
+    "value": "milk_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Milk"
+  },
+  {
+    "value": "oats_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Oats"
+  },
+  {
+    "value": "rice_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_tatooine",
+    "title": "p00110011000",
+    "name": "Tatooinian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_tatooine",
+    "title": "p00000011000",
+    "name": "Tatooinian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_tatooine",
+    "title": "p00100101110",
+    "name": "Tatooinian Wooly Hide"
+  },
+  {
+    "value": "ore_siliclastic_tertian",
+    "title": "p10101101110",
+    "name": "Tertian Siliclastic Ore"
+  },
+  {
+    "value": "copper_thallium",
+    "title": "p11101101110",
+    "name": "Thallium Copper"
+  },
+  {
+    "value": "steel_thoranium",
+    "title": "p11101101110",
+    "name": "Thoranium Steel"
+  },
+  {
+    "value": "aluminum_titanium",
+    "title": "p11101101110",
+    "name": "Titanium Aluminum"
+  },
+  {
+    "value": "gas_reactive_tolium",
+    "title": "p00100001000",
+    "name": "Tolium Reactive Gas"
+  },
+  {
+    "value": "metal_ferrous_unknown",
+    "title": "p11101101110",
+    "name": "Unknown Ferrous Metal"
+  },
+  {
+    "value": "gemstone_unknown",
+    "title": "p10101101111",
+    "name": "Unknown Gem Type"
+  },
+  {
+    "value": "ore_igneous_unknown",
+    "title": "p10101101110",
+    "name": "Unknown Igneous Ore"
+  },
+  {
+    "value": "gas_inert_unknown",
+    "title": "p00100001000",
+    "name": "Unknown Inert Gas"
+  },
+  {
+    "value": "petrochem_fuel_liquid_unknown",
+    "title": "p00100011000",
+    "name": "Unknown Liquid Petrochem Fuel"
+  },
+  {
+    "value": "metal_nonferrous_unknown",
+    "title": "p11101101110",
+    "name": "Unknown Non-Ferrous Metal"
+  },
+  {
+    "value": "radioactive_unknown",
+    "title": "p00100011000",
+    "name": "Unknown Radioactive"
+  },
+  {
+    "value": "gas_reactive_unknown",
+    "title": "p00100001000",
+    "name": "Unknown Reactive Gas"
+  },
+  {
+    "value": "ore_sedimentary_unkown",
+    "title": "p10101101110",
+    "name": "Unknown Sedimentary Ore"
+  },
+  {
+    "value": "petrochem_fuel_solid_unknown",
+    "title": "p00100011000",
+    "name": "Unknown Solid Petrochem Fuel"
+  },
+  {
+    "value": "gas_reactive_organometallic",
+    "title": "p00100001000",
+    "name": "Unstable Organometallic Reactive Gas"
+  },
+  {
+    "value": "ore_carbonate_varium",
+    "title": "p10101101110",
+    "name": "Varium Carbonate Ore"
+  },
+  {
+    "value": "armophous_vendusii",
+    "title": "p10101101111",
+    "name": "Vendusii Crystal Amorphous Gemstone"
+  },
+  {
+    "value": "crystalline_vertex",
+    "title": "p10101101111",
+    "name": "Vertex Crystalline Gemstone"
+  },
+  {
+    "value": "ore_extrusive_vintrium",
+    "title": "p10101101110",
+    "name": "Vintrium Extrusive Ore"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_weak",
+    "title": "p00000011000",
+    "name": "Weak Geothermal Renewable Energy"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_weak",
+    "title": "p00000011000",
+    "name": "Weak Solar Renewable Energy"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_weak",
+    "title": "p00000011000",
+    "name": "Weak Wind Renewable Energy"
+  },
+  {
+    "value": "bone_mammal_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Animal Bones"
+  },
+  {
+    "value": "bone_avian_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Avian Bones"
+  },
+  {
+    "value": "meat_avian_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Avian Meat"
+  },
+  {
+    "value": "fruit_berries_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Berry Fruit"
+  },
+  {
+    "value": "hide_bristley_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Bristley Hide"
+  },
+  {
+    "value": "meat_carnivore_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Carnivore Meat"
+  },
+  {
+    "value": "softwood_conifer_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Conifer Wood"
+  },
+  {
+    "value": "seafood_crustacean_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Crustacean Meat"
+  },
+  {
+    "value": "wood_deciduous_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Deciduous Wood"
+  },
+  {
+    "value": "corn_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Corn"
+  },
+  {
+    "value": "meat_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Meat"
+  },
+  {
+    "value": "milk_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Milk"
+  },
+  {
+    "value": "oats_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Oats"
+  },
+  {
+    "value": "rice_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Rice"
+  },
+  {
+    "value": "wheat_domesticated_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Domesticated Wheat"
+  },
+  {
+    "value": "meat_egg_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Egg Meat"
+  },
+  {
+    "value": "softwood_evergreen_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Evergreen Wood"
+  },
+  {
+    "value": "fiberplast_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Fiberplast"
+  },
+  {
+    "value": "seafood_fish_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Fish Meat"
+  },
+  {
+    "value": "fruit_flowers_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Flower Fruit"
+  },
+  {
+    "value": "fruit_fruits_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Fruit"
+  },
+  {
+    "value": "energy_renewable_site_limited_geothermal_yavin4",
+    "title": "p00000011000",
+    "name": "Yavinian Geothermal Renewable Energy"
+  },
+  {
+    "value": "meat_herbivore_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Herbivore Meat"
+  },
+  {
+    "value": "bone_horn_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Horn"
+  },
+  {
+    "value": "meat_insect_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Insect Meat"
+  },
+  {
+    "value": "hide_leathery_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Leathery Hide"
+  },
+  {
+    "value": "seafood_mollusk_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Mollusk Meat"
+  },
+  {
+    "value": "meat_reptillian_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Reptillian Meat"
+  },
+  {
+    "value": "hide_scaley_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Scaley Hide"
+  },
+  {
+    "value": "energy_renewable_unlimited_solar_yavin4",
+    "title": "p00000011000",
+    "name": "Yavinian Solar Renewable Energy"
+  },
+  {
+    "value": "vegetable_beans_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Vegetable Beans"
+  },
+  {
+    "value": "vegetable_fungi_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Vegetable Fungus"
+  },
+  {
+    "value": "vegetable_greens_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Vegetable Greens"
+  },
+  {
+    "value": "vegetable_tubers_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Vegetable Tubers"
+  },
+  {
+    "value": "water_vapor_yavin4",
+    "title": "p00100001000",
+    "name": "Yavinian Water Vapor"
+  },
+  {
+    "value": "corn_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Corn"
+  },
+  {
+    "value": "meat_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Meat"
+  },
+  {
+    "value": "milk_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Milk"
+  },
+  {
+    "value": "oats_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Oats"
+  },
+  {
+    "value": "rice_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Rice"
+  },
+  {
+    "value": "wheat_wild_yavin4",
+    "title": "p00110011000",
+    "name": "Yavinian Wild Wheat"
+  },
+  {
+    "value": "energy_renewable_unlimited_wind_yavin4",
+    "title": "p00000011000",
+    "name": "Yavinian Wind Renewable Energy"
+  },
+  {
+    "value": "hide_wooly_yavin4",
+    "title": "p00100101110",
+    "name": "Yavinian Wooly Hide"
+  },
+  {
+    "value": "ore_carbonate_zinsiam",
+    "title": "p10101101110",
+    "name": "Zinsiam Carbonate Ore"
+  }
+]
