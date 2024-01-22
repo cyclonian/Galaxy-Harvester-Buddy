@@ -1077,7 +1077,7 @@
   {
     "value": "water_vapor_dathomir",
     "title": "p00100001000",
-    "name": "Dathomirian Water Vapor"
+    "name": "Dathomir Water Vapor"
   },
   {
     "value": "corn_wild_dathomir",
@@ -1107,7 +1107,7 @@
   {
     "value": "wheat_wild_dathomir",
     "title": "p00110011000",
-    "name": "Dathomirian Wild Wheat"
+    "name": "Dathomir Wild Wheat"
   },
   {
     "value": "energy_renewable_unlimited_wind_dathomir",
@@ -3017,212 +3017,212 @@
   {
     "value": "bone_mammal_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Animal Bones"
+    "name": "Nal Huttan Animal Bones"
   },
   {
     "value": "bone_avian_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Avian Bones"
+    "name": "Nal Huttan Avian Bones"
   },
   {
     "value": "meat_avian_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Avian Meat"
+    "name": "Nal Huttan Avian Meat"
   },
   {
     "value": "fruit_berries_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Berry Fruit"
+    "name": "Nal Huttan Berry Fruit"
   },
   {
     "value": "hide_bristley_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Bristley Hide"
+    "name": "Nal Huttan Bristley Hide"
   },
   {
     "value": "meat_carnivore_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Carnivore Meat"
+    "name": "Nal Huttan Carnivore Meat"
   },
   {
     "value": "softwood_conifer_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Conifer Wood"
+    "name": "Nal Huttan Conifer Wood"
   },
   {
     "value": "seafood_crustacean_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Crustacean Meat"
+    "name": "Nal Huttan Crustacean Meat"
   },
   {
     "value": "wood_deciduous_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Deciduous Wood"
+    "name": "Nal Huttan Deciduous Wood"
   },
   {
     "value": "corn_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Corn"
+    "name": "Nal Huttan Domesticated Corn"
   },
   {
     "value": "meat_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Meat"
+    "name": "Nal Huttan Domesticated Meat"
   },
   {
     "value": "milk_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Milk"
+    "name": "Nal Huttan Domesticated Milk"
   },
   {
     "value": "oats_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Oats"
+    "name": "Nal Huttan Domesticated Oats"
   },
   {
     "value": "rice_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Rice"
+    "name": "Nal Huttan Domesticated Rice"
   },
   {
     "value": "wheat_domesticated_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Domesticated Wheat"
+    "name": "Nal Huttan Domesticated Wheat"
   },
   {
     "value": "meat_egg_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Egg Meat"
+    "name": "Nal Huttan Egg Meat"
   },
   {
     "value": "softwood_evergreen_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Evergreen Wood"
+    "name": "Nal Huttan Evergreen Wood"
   },
   {
     "value": "fiberplast_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Fiberplast"
+    "name": "Nal Huttan Fiberplast"
   },
   {
     "value": "seafood_fish_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Fish Meat"
+    "name": "Nal Huttan Fish Meat"
   },
   {
     "value": "fruit_flowers_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Flower Fruit"
+    "name": "Nal Huttan Flower Fruit"
   },
   {
     "value": "fruit_fruits_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Fruit"
+    "name": "Nal Huttan Fruit"
   },
   {
     "value": "meat_herbivore_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Herbivore Meat"
+    "name": "Nal Huttan Herbivore Meat"
   },
   {
     "value": "bone_horn_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Horn"
+    "name": "Nal Huttan Horn"
   },
   {
     "value": "meat_insect_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Insect Meat"
+    "name": "Nal Huttan Insect Meat"
   },
   {
     "value": "hide_leathery_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Leathery Hide"
+    "name": "Nal Huttan Leathery Hide"
   },
   {
     "value": "seafood_mollusk_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Mollusk Meat"
+    "name": "Nal Huttan Mollusk Meat"
   },
   {
     "value": "meat_reptillian_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Reptillian Meat"
+    "name": "Nal Huttan Reptillian Meat"
   },
   {
     "value": "hide_scaley_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Scaley Hide"
+    "name": "Nal Huttan Scaley Hide"
   },
   {
     "value": "energy_renewable_unlimited_solar_nalhutta",
     "title": "p00000011000",
-    "name": "Nal Hutta Solar Renewable Energy"
+    "name": "Nal Huttan Solar Renewable Energy"
   },
   {
     "value": "vegetable_beans_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Vegetable Beans"
+    "name": "Nal Huttan Vegetable Beans"
   },
   {
     "value": "vegetable_fungi_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Vegetable Fungus"
+    "name": "Nal Huttan Vegetable Fungus"
   },
   {
     "value": "vegetable_greens_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Vegetable Greens"
+    "name": "Nal Huttan Vegetable Greens"
   },
   {
     "value": "vegetable_tubers_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Vegetable Tubers"
+    "name": "Nal Huttan Vegetable Tubers"
   },
   {
     "value": "water_vapor_nalhutta",
     "title": "p00100001000",
-    "name": "Nal Hutta Water Vapor"
+    "name": "Nal Huttan Water Vapor"
   },
   {
     "value": "corn_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Corn"
+    "name": "Nal Huttan Wild Corn"
   },
   {
     "value": "meat_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Meat"
+    "name": "Nal Huttan Wild Meat"
   },
   {
     "value": "milk_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Milk"
+    "name": "Nal Huttan Wild Milk"
   },
   {
     "value": "oats_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Oats"
+    "name": "Nal Huttan Wild Oats"
   },
   {
     "value": "rice_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Rice"
+    "name": "Nal Huttan Wild Rice"
   },
   {
     "value": "wheat_wild_nalhutta",
     "title": "p00110011000",
-    "name": "Nal Hutta Wild Wheat"
+    "name": "Nal Huttan Wild Wheat"
   },
   {
     "value": "energy_renewable_unlimited_wind_nalhutta",
     "title": "p00000011000",
-    "name": "Nal Hutta Wind Renewable Energy"
+    "name": "Nal Huttan Wind Renewable Energy"
   },
   {
     "value": "hide_wooly_nalhutta",
     "title": "p00100101110",
-    "name": "Nal Hutta Wooly Hide"
+    "name": "Nal Huttan Wooly Hide"
   },
   {
     "value": "steel_neutronium",

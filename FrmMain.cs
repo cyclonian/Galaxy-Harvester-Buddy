@@ -273,6 +273,7 @@ namespace Cyclonian.GhBuddy
                         else // skip, not needed line
                         {
                             // TODO: error handle here
+                            int stop = 0;
                         }
                     }
                     catch (Exception ex)

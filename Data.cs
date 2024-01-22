@@ -32,7 +32,7 @@ namespace Cyclonian.GhBuddy
         DromundKaas = 12,
         Lothal = 17,
         Chandrila = 19,
-        NalHutta = 20,
+        Hutta = 20,
         Moraband = 27,
         Florrum = 28
     }
