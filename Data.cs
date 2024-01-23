@@ -81,13 +81,9 @@ namespace Cyclonian.GhBuddy
 
     public class ResourceClass
     {
-        public string value = string.Empty;
-        public string title = string.Empty;
-        public string name = string.Empty;
-
-        public ResourceClass()
-        {
-        }
+        public string value { get; set; } = string.Empty;
+        public string title { get; set; } = string.Empty;
+        public string name { get; set; } = string.Empty;
     }
 
     public class ResourceEntry
@@ -110,8 +106,8 @@ namespace Cyclonian.GhBuddy
         public int OQ { get; set; } = 0;
         public int SR { get; set; } = 0;
         public int UT { get; set; } = 0;
-
         public bool ExistsOnGh { get; set; } = false;
+        public bool RecoveredFromGh { get; set; } = false;
         public int GH_ER { get; set; } = 0;
         public int GH_CR { get; set; } = 0;
         public int GH_CD { get; set; } = 0;
@@ -123,6 +119,84 @@ namespace Cyclonian.GhBuddy
         public int GH_OQ { get; set; } = 0;
         public int GH_SR { get; set; } = 0;
         public int GH_UT { get; set; } = 0;
+
+        public bool IsEmpty()
+        {
+            // check for empty resource (ISD likely returned no data for this one)
+            if (ER + CR + CD + DR + FL + HR + MA + PE + OQ + SR + UT == 0)
+                return true;
+            return false;
+        }
+
+        public string ErrorMessage { get; set; } = string.Empty;
+        public bool IsError()
+        {
+            // pre-existing error - send it
+            if (!string.IsNullOrWhiteSpace(ErrorMessage))
+                return true;
+
+            // check for empty resource (ISD likely returned no data for this one)
+            // if GH has it... use those stats!
+            if (IsEmpty())
+            {
+                if (ExistsOnGh)
+                {
+                    RecoveredFromGh = true;
+                    ER = GH_ER;
+                    CR = GH_CR;
+                    CD = GH_CD;
+                    DR = GH_DR;
+                    FL = GH_FL;
+                    HR = GH_HR;
+                    MA = GH_MA;
+                    PE = GH_PE;
+                    OQ = GH_OQ;
+                    SR = GH_SR;
+                    UT = GH_UT;
+
+                    if (IsEmpty())
+                    {
+                        ErrorMessage = string.Format("{0}: Resource has no stats!", Name);
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    ErrorMessage = string.Format("{0}: Resource has no stats!", Name);
+                    return true;
+                }
+            }
+
+            // check for GH mismatches
+            if(ExistsOnGh && ER != GH_ER)
+                ErrorMessage = string.Format("{0}: Mismatch! Local ER: {1} | GH ER: {2}", Name, ER, GH_ER);
+            if (ExistsOnGh && CR != GH_CR)
+                ErrorMessage = string.Format("{0}: Mismatch! Local CR: {1} | GH CR: {2}", Name, CR, GH_CR);
+            if (ExistsOnGh && CD != GH_CD)
+                ErrorMessage = string.Format("{0}: Mismatch! Local CD: {1} | GH CD: {2}", Name, CD, GH_CD);
+            if (ExistsOnGh && DR != GH_DR)
+                ErrorMessage = string.Format("{0}: Mismatch! Local DR: {1} | GH DR: {2}", Name, DR, GH_DR);
+            if (ExistsOnGh && FL != GH_FL)
+                ErrorMessage = string.Format("{0}: Mismatch! Local FL: {1} | GH FL: {2}", Name, FL, GH_FL);
+            if (ExistsOnGh && HR != GH_HR)
+                ErrorMessage = string.Format("{0}: Mismatch! Local HR: {1} | GH CR: {2}", Name, HR, GH_HR);
+            if (ExistsOnGh && MA != GH_MA)
+                ErrorMessage = string.Format("{0}: Mismatch! Local MA: {1} | GH MA: {2}", Name, MA, GH_MA);
+            if (ExistsOnGh && PE != GH_PE)
+                ErrorMessage = string.Format("{0}: Mismatch! Local PE: {1} | GH PE: {2}", Name, PE, GH_PE);
+            if (ExistsOnGh && OQ != GH_OQ)
+                ErrorMessage = string.Format("{0}: Mismatch! Local OQ: {1} | GH OQ: {2}", Name, OQ, GH_OQ);
+            if (ExistsOnGh && SR != GH_SR)
+                ErrorMessage = string.Format("{0}: Mismatch! Local SR: {1} | GH SR: {2}", Name, SR, GH_SR);
+            if (ExistsOnGh && UT != GH_UT)
+                ErrorMessage = string.Format("{0}: Mismatch! Local UT: {1} | GH UT: 2}", Name, UT, GH_UT);
+
+            return false;
+        }
 
         public string GetResourceByNameResponse { get; set; } = string.Empty;
         public string OldSpawnName { get; set; } = string.Empty;

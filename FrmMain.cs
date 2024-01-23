@@ -6,13 +6,14 @@ using System.Security.Policy;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using static System.Net.WebRequestMethods;
 
 namespace Cyclonian.GhBuddy
 {
     public partial class FrmMain : Form
     {
-        StringBuilder _sb = new StringBuilder();
+        protected StringBuilder _sb = new StringBuilder();
         private static readonly HttpClient _client = new HttpClient();
 
         public Galaxies _galaxy = Galaxies.Stardust21;
@@ -22,17 +23,20 @@ namespace Cyclonian.GhBuddy
 
         public List<StatItem> mapStats = new List<StatItem>();
 
-        BindingList<ResourceEntry> _resourceEntries = new BindingList<ResourceEntry>();
-        BindingSource _source = null;
+        protected BindingList<ResourceEntry> _resourceEntries = new BindingList<ResourceEntry>();
+        protected ResourceEntry _currentSelection = null;
+        protected BindingSource _source = null;
+
+        protected Color _highlightColor = Color.FromArgb(255, 225, 225);
 
 
         public string _sessionToken = string.Empty;
 
-        string regexResponse = @"<resultText>([\s\S]*?)</resultText>";
+        protected string regexResponse = @"<resultText>([\s\S]*?)</resultText>";
 
-        string settingsKey_Username = "username";
-        string settingsKey_MailSaveLocation = "mailsave_location";
-        string settingsKey_MailSaveSubfolders = "mailsave_subfolders";
+        protected string settingsKey_Username = "username";
+        protected string settingsKey_MailSaveLocation = "mailsave_location";
+        protected string settingsKey_MailSaveSubfolders = "mailsave_subfolders";
 
         public FrmMain()
         {
@@ -94,12 +98,13 @@ namespace Cyclonian.GhBuddy
         {
             rtb.Clear();
             _resourceEntries.Clear();
+            _currentSelection = null;
             SetPostEnabled();
         }
 
         protected void SetPostEnabled()
         {
-            btnPost.Enabled = _resourceEntries.Count > 0;
+            btnPost.Enabled = _resourceEntries.Count > 0 && _sessionToken != string.Empty;
         }
 
         public void PerformLoadSettings()
@@ -149,8 +154,10 @@ namespace Cyclonian.GhBuddy
             {
                 WriteError(ex);
                 _resourceEntries.Clear();
-                SetPostEnabled();
+                _currentSelection = null;
             }
+
+            SetPostEnabled();
         }
 
         public void PerformReadResourceClasses()
@@ -167,6 +174,7 @@ namespace Cyclonian.GhBuddy
             {
                 WriteError(ex);
                 _resourceEntries.Clear();
+                _currentSelection = null;
                 SetPostEnabled();
             }
         }
@@ -176,6 +184,7 @@ namespace Cyclonian.GhBuddy
             try
             {
                 _resourceEntries.Clear();
+                _currentSelection = null;
                 DirectoryInfo di = new DirectoryInfo(tbMailSaveLocation.Text);
                 if (di.Exists)
                 {
@@ -200,6 +209,7 @@ namespace Cyclonian.GhBuddy
             {
                 WriteError(ex);
                 _resourceEntries.Clear();
+                _currentSelection = null;
                 SetPostEnabled();
             }
         }
@@ -215,6 +225,7 @@ namespace Cyclonian.GhBuddy
 
                 List<string> lines = System.IO.File.ReadAllLines(fi.FullName).ToList();
                 ResourceEntry currentEntry = null;
+                ResourceClass currentClass = null;
                 Planets currentPlanet = Planets.None;
                 string szCurrentResourceClass = string.Empty;
                 for (int i = 0; i < lines.Count; i++)
@@ -257,23 +268,22 @@ namespace Cyclonian.GhBuddy
                         }
                         else if (lines[i].StartsWith("\t\t")) // name
                         {
+                            AddResource(currentEntry, resourceEntries);
+
                             string szName = szTrimmedLine.Substring(szTrimmedLine.IndexOf(" ") + 1);
                             szName = szName.Substring(0, szName.Length - 3);
+                            currentEntry = new ResourceEntry(_galaxy, currentPlanet);
+                            currentEntry.Class = currentClass;
                             currentEntry.Name = szName.ToLower();
 
                             await currentEntry.GetResourceByName(_client);
                         }
                         else if (lines[i].StartsWith("\t")) // class
                         {
-                            ResourceClass resourceClass = ResourceClasses.Find(x => x.name == szTrimmedLine);
-                            currentEntry = new ResourceEntry(_galaxy, currentPlanet);
-                            currentEntry.Class = resourceClass;
-                            resourceEntries.Add(currentEntry);
+                            currentClass = ResourceClasses.Find(x => x.name == szTrimmedLine);
                         }
                         else // skip, not needed line
                         {
-                            // TODO: error handle here
-                            int stop = 0;
                         }
                     }
                     catch (Exception ex)
@@ -283,6 +293,9 @@ namespace Cyclonian.GhBuddy
                     }
                 }
 
+                // add the last one through the loop
+                AddResource(currentEntry, resourceEntries);
+
                 foreach (ResourceEntry entry in resourceEntries)
                 {
                     string szStats = entry.FriendlyStats(_sb, mapStats);
@@ -291,13 +304,41 @@ namespace Cyclonian.GhBuddy
                 }
 
                 dgv.Update();
+
+                foreach (DataGridViewRow row in dgv.Rows)
+                    if (!(bool)row.Cells["chExistsOnGh"].Value)
+                        row.DefaultCellStyle.BackColor = _highlightColor;
+
                 dgv.Refresh();
             }
             catch (Exception ex)
             {
                 WriteError(ex);
                 _resourceEntries.Clear();
+                _currentSelection = null;
                 SetPostEnabled();
+            }
+        }
+
+        public void AddResource(ResourceEntry currentEntry, List<ResourceEntry> resourceEntries)
+        {
+            if (currentEntry == null)
+                return;
+
+            // check if the resource is errant or not
+            if (currentEntry.IsError())
+            {
+                WriteError(new Exception(currentEntry.ErrorMessage));
+
+                // add it anyway so that it can be manually updated
+                if (currentEntry.ErrorMessage.Contains("Resource has no stats"))
+                    resourceEntries.Add(currentEntry);
+            }
+            else
+            {
+                if (currentEntry.RecoveredFromGh)
+                    WriteOut(string.Format("Recovered: {0}.  ISD returned no stats for it, but found it on GH!", currentEntry.Name));
+                resourceEntries.Add(currentEntry);
             }
         }
 
@@ -307,35 +348,44 @@ namespace Cyclonian.GhBuddy
             {
                 foreach (ResourceEntry entry in _resourceEntries)
                 {
-                    WriteOut(entry.Friendly(_sb));
-
-                    string szUrlPost = "http://galaxyharvester.net/postResource.py";
-                    string szRawContent = entry.GetPostRaw(mapStats);
-                    WriteOut("POST: " + szUrlPost + "?" + szRawContent);
-
-                    HttpRequestMessage requestMessagePost = new HttpRequestMessage(HttpMethod.Post, szUrlPost);
-                    requestMessagePost.Headers.Add("cookie", "gh_sid=" + _sessionToken + ";");
-                    requestMessagePost.Content = new StringContent(szRawContent, Encoding.UTF8, "application/x-www-form-urlencoded");
-
-                    var responsePost = await _client.SendAsync(requestMessagePost);
-
-                    var responseStringPost = await responsePost.Content.ReadAsStringAsync();
-
-                    var matchesPost = Regex.Matches(responseStringPost, regexResponse);
-                    if (matchesPost.Count > 0 && matchesPost[0].Groups.Count > 1)
-                        WriteOut(matchesPost[0].Groups[1].Value.Trim());
-                    else
-                        WriteOut(responseStringPost.Trim());
-
-                    await entry.CheckForAndRemoveOldResource(_galaxy, _client, _sessionToken);
-                    if (!string.IsNullOrWhiteSpace(entry.OldSpawnName))
+                    if (!entry.IsEmpty())
                     {
-                        WriteOut("Found Old Spawn: " + entry.OldSpawnName);
-                        WriteOut(entry.MarkUnavailableResponse);
+                        WriteOut(entry.Friendly(_sb));
+                        if (!entry.ExistsOnGh)
+                            WriteOut("New Entry!");
+
+                        string szUrlPost = "http://galaxyharvester.net/postResource.py";
+                        string szRawContent = entry.GetPostRaw(mapStats);
+                        WriteOut("POST: " + szUrlPost + "?" + szRawContent);
+
+                        HttpRequestMessage requestMessagePost = new HttpRequestMessage(HttpMethod.Post, szUrlPost);
+                        requestMessagePost.Headers.Add("cookie", "gh_sid=" + _sessionToken + ";");
+                        requestMessagePost.Content = new StringContent(szRawContent, Encoding.UTF8, "application/x-www-form-urlencoded");
+
+                        var responsePost = await _client.SendAsync(requestMessagePost);
+
+                        var responseStringPost = await responsePost.Content.ReadAsStringAsync();
+
+                        var matchesPost = Regex.Matches(responseStringPost, regexResponse);
+                        if (matchesPost.Count > 0 && matchesPost[0].Groups.Count > 1)
+                            WriteOut(matchesPost[0].Groups[1].Value.Trim());
+                        else
+                            WriteOut(responseStringPost.Trim());
+
+                        await entry.CheckForAndRemoveOldResource(_galaxy, _client, _sessionToken);
+                        if (!string.IsNullOrWhiteSpace(entry.OldSpawnName))
+                        {
+                            WriteOut("Found Old Spawn: " + entry.OldSpawnName);
+                            WriteOut(entry.MarkUnavailableResponse);
+                        }
+                        else
+                        {
+                            WriteOut("No Old Spawn Found!");
+                        }
                     }
                     else
                     {
-                        WriteOut("No Old Spawn Found!");
+                        WriteOut(string.Format("Skipping: {0}", entry.ErrorMessage));
                     }
                 }
             }
@@ -343,7 +393,42 @@ namespace Cyclonian.GhBuddy
             {
                 WriteError(ex);
                 _resourceEntries.Clear();
+                _currentSelection = null;
                 SetPostEnabled();
+            }
+        }
+
+        protected void PerformRemoveSelected()
+        {
+            _resourceEntries.Remove(_currentSelection);
+            SetPostEnabled();
+        }
+
+        protected void PerformAddNewResource()
+        {
+            FrmAddNew frmAddNew = new FrmAddNew(ResourceClasses);
+            if (frmAddNew.ShowDialog(this) == DialogResult.OK)
+            {
+                ResourceEntry existingEntry = _resourceEntries.FirstOrDefault(x => x.Name == frmAddNew.Entry.Name, null);
+                if (existingEntry == null)
+                {
+                    frmAddNew.Entry.GetResourceByName(_client);
+                    _resourceEntries.Add(frmAddNew.Entry);
+
+                    dgv.Update();
+
+                    foreach (DataGridViewRow row in dgv.Rows)
+                        if (!(bool)row.Cells["chExistsOnGh"].Value)
+                            row.DefaultCellStyle.BackColor = _highlightColor;
+
+                    dgv.Refresh();
+
+                    SetPostEnabled();
+                }
+                else
+                {
+                    MessageBox.Show(this, string.Format("{0} is already in the list!", frmAddNew.Entry.Name), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -402,7 +487,43 @@ namespace Cyclonian.GhBuddy
 
         private void btnClearData_Click(object sender, EventArgs e)
         {
-            PerformClearData();
+            if (MessageBox.Show("This will clear the table!", "Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+            {
+                PerformClearData();
+            }
+        }
+
+        private void btnRemoveSelected_Click(object sender, EventArgs e)
+        {
+            if (_currentSelection == null)
+                return;
+
+            if (MessageBox.Show(string.Format("This will remove {0}!", _currentSelection.Name), "Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+            {
+                PerformRemoveSelected();
+            }
+        }
+
+        private void btnAddNew_Click(object sender, EventArgs e)
+        {
+            PerformAddNewResource();
+        }
+
+        private void dgv_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dgv.SelectedCells.Count > 0)
+            {
+                int nRow = dgv.SelectedCells[0].RowIndex;
+                int nColumn = dgv.SelectedCells[0].ColumnIndex;
+                string szName = dgv.Rows[nRow].Cells["chName"].Value as string;
+                _currentSelection = _resourceEntries.FirstOrDefault(x => x.Name == szName, null);
+                btnRemoveSelected.Text = string.Format("Remove Local Entry{0}[{1}]", Environment.NewLine, szName);
+            }
+            else
+            {
+                _currentSelection = null;
+                btnRemoveSelected.Text = "Remove Local Entry";
+            }
         }
     }
 }

@@ -61,6 +61,8 @@
             chUT = new DataGridViewTextBoxColumn();
             chExistsOnGh = new DataGridViewTextBoxColumn();
             btnClearData = new Button();
+            btnAddNew = new Button();
+            btnRemoveSelected = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
             // 
@@ -110,9 +112,9 @@
             // btnReadMailSaveFiles
             // 
             btnReadMailSaveFiles.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnReadMailSaveFiles.Location = new Point(1034, 100);
+            btnReadMailSaveFiles.Location = new Point(899, 310);
             btnReadMailSaveFiles.Name = "btnReadMailSaveFiles";
-            btnReadMailSaveFiles.Size = new Size(118, 48);
+            btnReadMailSaveFiles.Size = new Size(118, 40);
             btnReadMailSaveFiles.TabIndex = 10;
             btnReadMailSaveFiles.Text = "Read Mailsave Files";
             btnReadMailSaveFiles.UseVisualStyleBackColor = true;
@@ -122,10 +124,10 @@
             // 
             rtb.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             rtb.Font = new Font("Courier New", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            rtb.Location = new Point(117, 154);
+            rtb.Location = new Point(117, 125);
             rtb.Name = "rtb";
             rtb.ReadOnly = true;
-            rtb.Size = new Size(1277, 150);
+            rtb.Size = new Size(1277, 179);
             rtb.TabIndex = 13;
             rtb.Text = "";
             // 
@@ -177,7 +179,7 @@
             // 
             btnPost.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnPost.Enabled = false;
-            btnPost.Location = new Point(1279, 100);
+            btnPost.Location = new Point(1279, 630);
             btnPost.Name = "btnPost";
             btnPost.Size = new Size(115, 48);
             btnPost.TabIndex = 12;
@@ -199,16 +201,21 @@
             // 
             // dgv
             // 
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
             dgv.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv.Columns.AddRange(new DataGridViewColumn[] { chGalaxy, chPlanet, chName, chClass, chER, chCR, chCD, chDR, chFL, chHR, chMA, chPE, chOQ, chSR, chUT, chExistsOnGh });
-            dgv.Location = new Point(117, 310);
+            dgv.Location = new Point(117, 356);
+            dgv.MultiSelect = false;
             dgv.Name = "dgv";
+            dgv.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dgv.RowTemplate.Height = 25;
-            dgv.Size = new Size(1277, 368);
+            dgv.Size = new Size(1277, 268);
             dgv.TabIndex = 14;
             dgv.CellLeave += dgv_CellLeave;
             dgv.RowsAdded += dgv_RowsAdded;
+            dgv.SelectionChanged += dgv_SelectionChanged;
             // 
             // chGalaxy
             // 
@@ -340,19 +347,43 @@
             // btnClearData
             // 
             btnClearData.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnClearData.Location = new Point(1158, 100);
+            btnClearData.Location = new Point(1023, 310);
             btnClearData.Name = "btnClearData";
-            btnClearData.Size = new Size(115, 48);
+            btnClearData.Size = new Size(115, 40);
             btnClearData.TabIndex = 11;
             btnClearData.Text = "Clear Current Data";
             btnClearData.UseVisualStyleBackColor = true;
             btnClearData.Click += btnClearData_Click;
+            // 
+            // btnAddNew
+            // 
+            btnAddNew.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnAddNew.Location = new Point(1276, 310);
+            btnAddNew.Name = "btnAddNew";
+            btnAddNew.Size = new Size(118, 40);
+            btnAddNew.TabIndex = 15;
+            btnAddNew.Text = "Add New Resource";
+            btnAddNew.UseVisualStyleBackColor = true;
+            btnAddNew.Click += btnAddNew_Click;
+            // 
+            // btnRemoveSelected
+            // 
+            btnRemoveSelected.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnRemoveSelected.Location = new Point(1144, 310);
+            btnRemoveSelected.Name = "btnRemoveSelected";
+            btnRemoveSelected.Size = new Size(126, 40);
+            btnRemoveSelected.TabIndex = 16;
+            btnRemoveSelected.Text = "Remove Local Entry";
+            btnRemoveSelected.UseVisualStyleBackColor = true;
+            btnRemoveSelected.Click += btnRemoveSelected_Click;
             // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1406, 690);
+            Controls.Add(btnRemoveSelected);
+            Controls.Add(btnAddNew);
             Controls.Add(btnClearData);
             Controls.Add(dgv);
             Controls.Add(lblConnection);
@@ -411,5 +442,7 @@
         private DataGridViewTextBoxColumn chUT;
         private DataGridViewTextBoxColumn chExistsOnGh;
         private Button btnClearData;
+        private Button btnAddNew;
+        private Button btnRemoveSelected;
     }
 }
