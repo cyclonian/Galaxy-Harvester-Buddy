@@ -94,7 +94,7 @@ namespace Cyclonian.GhBuddy
         public string PlanetName { get { return Planet.ToString(); } }
         public string Name { get; set; } = string.Empty;
         public ResourceClass Class { get; set; } = new();
-        public string ClassName { get { return Class.name; } }
+        public string ClassName { get { return Class == null ? string.Empty : Class.name; } }
         public int ER { get; set; } = 0;
         public int CR { get; set; } = 0;
         public int CD { get; set; } = 0;
@@ -193,7 +193,7 @@ namespace Cyclonian.GhBuddy
             if (ExistsOnGh && SR != GH_SR)
                 ErrorMessage = string.Format("{0}: Mismatch! Local SR: {1} | GH SR: {2}", Name, SR, GH_SR);
             if (ExistsOnGh && UT != GH_UT)
-                ErrorMessage = string.Format("{0}: Mismatch! Local UT: {1} | GH UT: 2}", Name, UT, GH_UT);
+                ErrorMessage = string.Format("{0}: Mismatch! Local UT: {1} | GH UT: {2}", Name, UT, GH_UT);
 
             return false;
         }
@@ -318,23 +318,30 @@ namespace Cyclonian.GhBuddy
         {
             sb.Clear();
 
-            string szLine = string.Format("Name: {0} ({1})",
-                Name,
-                Class.name);
-            szLine = szLine.PadRight(50);
-            sb.Append(szLine);
-            sb.AppendFormat("ER: {0} | CR: {1} | CD: {2} | DR: {3} | FL: {4} | HR: {5} | MA: {6} | PE: {7} | OQ: {8} | SR: {9} | UT: {10}",
-                ER.ToString().PadLeft(3),
-                CR.ToString().PadLeft(3),
-                CD.ToString().PadLeft(3),
-                DR.ToString().PadLeft(3),
-                FL.ToString().PadLeft(3),
-                HR.ToString().PadLeft(3),
-                MA.ToString().PadLeft(3),
-                PE.ToString().PadLeft(3),
-                OQ.ToString().PadLeft(3),
-                SR.ToString().PadLeft(3),
-                UT.ToString().PadLeft(3));
+            if (Class != null)
+            {
+                string szLine = string.Format("Name: {0} ({1})",
+                    Name,
+                    Class.name);
+                szLine = szLine.PadRight(50);
+                sb.Append(szLine);
+                sb.AppendFormat("ER: {0} | CR: {1} | CD: {2} | DR: {3} | FL: {4} | HR: {5} | MA: {6} | PE: {7} | OQ: {8} | SR: {9} | UT: {10}",
+                    ER.ToString().PadLeft(3),
+                    CR.ToString().PadLeft(3),
+                    CD.ToString().PadLeft(3),
+                    DR.ToString().PadLeft(3),
+                    FL.ToString().PadLeft(3),
+                    HR.ToString().PadLeft(3),
+                    MA.ToString().PadLeft(3),
+                    PE.ToString().PadLeft(3),
+                    OQ.ToString().PadLeft(3),
+                    SR.ToString().PadLeft(3),
+                    UT.ToString().PadLeft(3));
+            }
+            else
+            {
+                sb.AppendFormat("{0}: No data", Name);
+            }
 
             return sb.ToString();
         }
